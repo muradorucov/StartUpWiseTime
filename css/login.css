@@ -266,10 +266,7 @@ form.sign-in-form {
   z-index: 1;
 }
 
-.container.sign-up-mode .right-panel .image,
-.container.sign-up-mode .right-panel .content {
-  transform: translateX(0%);
-}
+
 
 .container.sign-up-mode .left-panel {
   pointer-events: none;
