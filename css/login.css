@@ -111,6 +111,10 @@ form.sign-in-form {
   font-weight: 500;
 }
 
+.input-field input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-left: 50px;
+}
+
 .social-text {
   padding: 0.7rem 0;
   font-size: 1rem;
