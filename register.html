@@ -28,20 +28,24 @@
             <div class="input-field margin-input">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Ad" />
+              <span class="text-danger"> Ad 50 simvoldan çox olmamalıdır</span>
             </div>
             <div class="input-field ">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Soyad" />
+              <span class="text-danger"> Soyad 50 simvoldan çox olmamalıdır</span>
             </div>
           </div>
           <div class="register-input">
             <div class="input-field margin-input">
               <i class="fas fa-phone"></i>
               <input type="text" placeholder="Telefon Nömrəsi" />
+              <span class="text-danger"> Telefon nömrəsini daxil edin</span>
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
               <input type="email" placeholder="Email" />
+              <span class="text-danger"> Email daxil edin</span>
             </div>
           </div>
           <div class="register-input">
@@ -58,20 +62,35 @@
             <div class="input-field margin-input">
               <i class="fas fa-id-card"></i>
               <input type="text" placeholder="Fin" />
+              <span class="text-danger"> Fin daxil edin</span>
             </div>
             <div class="input-field">
               <i class="fas fa-calendar-alt"></i>
               <input type="date" placeholder="Doğum tarixi"/>
+              <span class="text-danger"> Doğum tarixi daxil edin</span>
             </div>
           </div>
           <div class="register-input">
             <div class="input-field margin-input">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Şifrə" />
+              <select name="gender" id="gender" class="gender">
+                <option value="volvo">Cinsiyyət seçin</option>
+                <option value="volvo">Kişi</option>
+                <option value="saab">Qadın</option>
+              </select>
+              <span class="text-danger">Cinsiyyət daxil edin</span>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Şifrə" />
+              <span class="text-danger">Şifrə 8 simvoldan az olmamalıdır</span>
+            </div>
+          </div>
+          <div class="register-input">
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
               <input type="password" placeholder="Təkrar Şifrə" />
+              <span class="text-danger">Təkrar Şifrə uyğun deyil</span>
             </div>
           </div>
           <input type="submit" class="btn" value="Qeydiyyat" />
@@ -115,6 +134,7 @@
       </div>
     </div>
   </div>
+
 
 </body>
 
