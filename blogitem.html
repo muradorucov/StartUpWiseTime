@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>WiseTime | Məqalə Oxu</title>
     <!--== Required meta tags  ==-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <!--== Google fonts link  ==-->
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
@@ -29,7 +29,6 @@
 
 
     <!--== CSS fayls  ==-->
-    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/blogitem.css">
     <link rel="stylesheet" href="./css/contact.css">
@@ -42,15 +41,15 @@
     <a name="goback"></a>
     <!--== Start Header-Contact nav ==-->
     <nav id="header-contact">
-        <div class="container con">
+        <div class="container">
             <div class="row align-items-center justify-content-between">
                 <!--== Header contact info start ==-->
                 <div class="col-auto">
                     <ul class="header-top-info align-items-center justify-content-between d-flex">
                         <li>
-                            <a href="mailto:mail@example.com">
+                            <a href="mailto:wisetime@mail.com">
                                 <i class="fas fa-envelope"></i>
-                                <span>mail@example.com</span>
+                                <span>wisetime@mail.com</span>
                             </a>
                         </li>
                         <li>
@@ -81,9 +80,9 @@
                             </li>
                         </ul>
                         <div class="header-top-btn">
-                            <a href="#" class="header-call-back-link">
+                            <a href="#forum" class="header-call-back-link">
                                 <i class="material-icons">ring_volume</i>
-                                <span>Callback</span>
+                                <span>Sizə zəng edək</span>
                             </a>
                         </div>
                     </div>
@@ -99,63 +98,46 @@
         <div class="meniu-nav">
             <div class="logo">
                 <a href="./index.html"><img src="./img/logo.png" alt="">
-                    <span>PathSoft</span>
+                    <span>WiseTime</span>
                 </a>
             </div>
 
             <div class="meniu-item">
                 <ul>
                     <li>
-                        <a href="./index.html" class="menu-list-to" data-title="Home">
-                            <span data-title="Home"> Home</span>
-                            <i class=""></i>
+                        <a href="#!" class="menu-list-to" data-title="Qrup">
+                            <span data-title="Qrup">Qrup</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./about.html" class="menu-list-to" data-title="About Us">
-                            <span data-title="About Us">About Us </span>
-                            <i class=""></i>
+                        <a href="#!" class="menu-list-to" data-title="Təqvim">
+                            <span data-title="Təqvim">Təqvim</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./services.html" class="menu-list-to" data-title="Services">
-                            <span data-title="Services"> Services</span>
-                            <i class=""></i>
+                        <a href="./contact.html" class="menu-list-to" data-title="Əlaqə">
+                            <span data-title="Əlaqə">Əlaqə</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./blog.html" class="menu-list-to" data-title="News">
-                            <span data-title="News">News </span>
-                            <i class=""></i>
+                        <a href="#!" class="menu-list-to" data-title="Xüsusiyyət">
+                            <span data-title="Xüsusiyyət">Xüsusiyyət</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./gallery.html" class="menu-list-to" data-title="Gallery">
-                            <span data-title="Gallery">Gallery </span>
-                            <i class=""></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./contact.html" class="menu-list-to" data-title="Contact Us">
-                            <span data-title="Contact Us">Contact Us </span>
-                            <i class=""></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./login.html" class="menu-list-to" data-title="Login">
-                            <span data-title="Login"> Login</span>
-                            <i class=""></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#!" class="menu-list-to" data-title="En">
-                            <span data-title="En">En </span>
-                            <i class=""></i>
+                        <a href="#!" class="menu-list-to" data-title="Yardım">
+                            <span data-title="Yardım">Yardım</span>
                         </a>
                     </li>
                     <li class="menu-search">
-                        <a href="http://">
-                            <i class="material-icons md-22 header-search-ico-search">search</i></a>
+                        <i class="material-icons md-22 header-search-ico-search">search</i>
+                        <input type="search" name="search" id="search" placeholder="Axtar...">
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-profil">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Profil</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -169,9 +151,11 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
                     <div class="crumbs-info">
-                        <span class="crumbs-home"><a href="./index.html">Home</a></span> <i class="fas fa-angle-right"></i>
-                        <span class="crumbs-home"><a href="./blog.html">News</a></span> <i class="fas fa-angle-right"></i>
-                        <span class="crumbs-about">Benefits Of ASync/Await In Programming</span>
+                        <span class="crumbs-home"><a href="./index.html">Ana səhifə</a></span> <i
+                            class="fas fa-angle-right"></i>
+                        <span class="crumbs-home"><a href="./blog.html">Xəbərlər</a></span> <i
+                            class="fas fa-angle-right"></i>
+                        <span class="crumbs-about">UX/ UI dizayn nədir?</span>
                     </div>
                 </div>
             </div>
@@ -187,7 +171,7 @@
                 <div class="col-lg-9 col-12 item ">
                     <div class="blog-section">
                         <div class="blog-heading">
-                            <h2 class="blog-heading-h2">Benefits Of ASync/Await In Programming</h2>
+                            <h2 class="blog-heading-h2">UX/ UI dizayn nədir?</h2>
                         </div>
                         <div class="news-post-meta">
                             <div class="news-post-meta-item">
@@ -196,7 +180,7 @@
                             </div>
                             <div class="news-post-meta-item">
                                 <span>by &nbsp;</span>
-                                <a href="#!">John Doe</a>
+                                <a href="#!">Ruslan Qələndərli</a>
                             </div>
                             <div class="news-post-meta-item">
                                 <i class="material-icons news-post-meta-item-icon">chat_bubble</i>
@@ -204,208 +188,96 @@
                             </div>
                         </div>
                         <div class="news-post-img">
-                            <img src="./img/news-img-1.jpg" alt="">
+                            <img src="https://www.ekaryera.az/adminpage/uploads/1637606288uxdizayn.jpeg" alt="">
                         </div>
                         <article class="news-post-article">
-                            <p>Whenever I’m TA for a introductory CS class where students learn some programming
-                                language, I
-                                have trouble coming
-                                up with good exercises. Problems from Project Euler and the like are usually much too
-                                difficult for beginners,
-                                especially if they don’t have a strong background in mathematics.</p>
-                            <p>This page is a collection of progressively more difficult exercises that are suitable for
-                                people who just started
-                                learning. It will be extended as I come up with new exercises. Except for the GUI
-                                questions,
-                                exercises are
-                                generally algorithmic and should be solvable without learning any libraries. The
-                                difficulty
-                                of the exercises of
-                                course somewhat depends on the programming language you use. The List exercises for
-                                example
-                                are more complicated
-                                in languages like C that don’t have build-in support for lists.</p>
-                            <blockquote>Whenever I’m TA for a introductory CS class where students learn some
-                                programming
-                                language, I have
-                                trouble coming up with good exercises. Problems from Project Euler and the like are
-                                usually
-                                much too difficult
-                                for beginners, especially if they don’t have a strong background in mathematics.
+                            <p>Əvvəlcə UX və UI-ın nə olduğuna baxaq. UX dizaynı "istifadəçi təcrübəsi dizaynı" , UI isə
+                                "istifadəçi interfeysi dizaynı" deməkdir.
+                                Bu iki sahə bir-birinə bənzəsə də aralarında kifayət qədər fərqlər mövcuddur və bu
+                                məqalədə onlardan da danışacağıq. </p>
+                            <p>UI dizaynı ingilis dilindən tərcümədə (user interface) "istifadəçi interfeysi" deməkdir.
+                                İstifadəçi interfeysi proqramın qrafik tərtibatıdır. O, istifadəçilərin kliklədiyi
+                                düymələrdən, oxuduqları mətndən, şəkillərdən, sürgülərdən, mətn daxiletmə sahələrindən
+                                və istifadəçinin qarşılıqlı əlaqədə olduğu bütün qalan elementlərdən ibarətdir. Buraya
+                                ekran tərtibatı, keçidlər, interfeys animasiyaları və hər bir mikro qarşılıqlı əlaqə
+                                daxildir.
+                                İstənilən növ vizual element, qarşılıqlı əlaqə və ya animasiya dizayn edilməlidir. </p>
+                            <blockquote>“UX” ın açılışı user experience olduğundan “istifadəçi təcrübəsi” mənasını
+                                verir. İstifadəçi təcrübəsi dedikdə məhsulunla istifadəçi arasında əlaqə və məhsul
+                                istifadəsi proesesi nəzərdə tutulur. “UX” dizaynı istifadəçinin ehtiyaclarını
+                                dəstəkləməkdən ibarətdir və məhsulun istifadə məqsədindən kənara çıxmamalıdır.
                             </blockquote>
-                            <h2>Benefits Of ASync/Await In Programming</h2>
-                            <p>Learning to program means learning how to solve problems using code. Conceptually it is
-                                not
-                                very difficult to
-                                write a program that solves a problem that you can solve yourself. The skill you need to
-                                acquire is thinking
-                                very precisely about how you solve the problem and breaking it down into steps that are
-                                so
-                                simple that a
-                                computer can execute them. I encourage you to first solve a few instances of a problem
-                                by
-                                hand and think about
-                                what you did to find the solution. For example if the task is sorting lists, sort some
-                                short
-                                lists yourself.</p>
-                            <p>A reasonable method would be to find the smallest element, write it down and cross it out
-                                of
-                                the original list
-                                and repeat this process until you have sorted the whole list. Then you have to teach the
-                                computer 1) how to find
-                                the smallest element, 2) how to write it down, 3) how to cross it out, and wrap this in
-                                a
-                                loop. Then continue
-                                this task breakdown process until you’re confident you know how to write the necessary
-                                program.</p>
-                            <h3>Benefits Of ASync/Await In Programming</h3>
-                            <p>To make good progress in your programming task, you need to test your work as early and
-                                as
-                                thoroughly as
-                                possible. Everybody makes mistakes while programming and finding mistakes in programs
-                                consumes a very large part
-                                of a programmer’s work-day. Finding a problem in a small and easy piece of code is much
-                                simpler than trying to
-                                spot it in a large program. </p>
-                            <p>This is why you should try to test each sub task you identified during your
-                                task-breakdown by
-                                itself. Only after
-                                you’re confident that each part works as you expect you can attempt to plug them
-                                together.
-                                Make sure you test
-                                the complete program as well, errors can creep in in the way the different parts
-                                interact.
-                                You should try to
-                                automate your tests. The easier it is to test your program, the freer you are in
-                                experimenting with changes.</p>
-                            <h4>Benefits Of ASync/Await In Programming</h4>
-                            <p>To make good progress in your programming task, you need to test your work as early and
-                                as
-                                thoroughly as
-                                possible. Everybody makes mistakes while programming and finding mistakes in programs
-                                consumes a very large part
-                                of a programmer’s work-day. Finding a problem in a small and easy piece of code is much
-                                simpler than trying to
-                                spot it in a large program. </p>
-                            <h5>Benefits Of ASync/Await In Programming</h5>
+                            <h2>UI/UX dizayner nə edir? </h2>
+                            <p>UX dizayner məhsulun yaranması üçün ilk mərhələdən sonadək iştirak edir və əsas məqsədi
+                                məhsul istifadəsini maksimal olaraq sadələşdirmək, prosesləri hədəf kütlə üçün əlçatan
+                                etməkdir.İndi isə gəlin bir neçə mərhələ ilə tanış olaq. İlkin olaraq dizayner biznes
+                                ilə tanış olur və məhsulla bağlı ümumi məlumat toplayır. Hədəf kütlə və biznesin
+                                ehtiyacı müəyyən olunduqdan sonra yaradılacaq və ya inkişaf etdiriləcək məhsulun
+                                uyğunlaşdırılma mərhələsi başlayır. Paralel olaraq isə rəqiblər və oxşar məhsullar ,
+                                bizneslər analiz edilir. Növbəti mərhələlərdən biri isə personaların yaradılmasıdır.
+                                Persona məhsuldan istifadə edəcək insanları təmsil edir. Dizayn və istifadə mərhələləri
+                                tərtib olunarkən personanın düzgün seçilməsi çox önəmlidir. Digər mərhələdə istifadəçi
+                                xəritələri hazırlanır.
+                                Burada istifadəçinin müəyyən bir əməliyyatı aparmaq üçün hansı mərhələlərdən keçdiyi
+                                göstərilir. </p>
+                            <p>UI dizayn mütəxəssisləri interaktiv elementlərin yaradılmasına, layihələndirilməsinə və
+                                təşkilinə cavabdehdirlər, adətən layihə üçün vizyonu tərtib edən UX dizaynerləri ilə sıx
+                                əməkdaşlıq edirlər.Dizayn prosesi davam etdikcə, UI dizayn mütəxəssisləri düymələr,
+                                tablar, menyular, sürüşdürmə çubuqları, sürüşmələr və axtarış sahələri kimi interaktiv
+                                dizayn elementlərini hazırlamaqla istifadəçi interfeysləri üzərində işləyirlər. Vəzifə
+                                və iş təcrübəsindən asılı olaraq həm də şriftlər, tərtibatlar, rəng, qrafik dizayn
+                                elementləri, şəkillər, animasiyalar və ikonlar ilə bağlı tərtibatlar da UI dizaynerin
+                                öhdəliyində ola bilər. </p>
+                            <h3>UX/UI üzrə lazım olan Bacarıqlar
+                            </h3>
+                            <p>UX dizaynerin yumşaq bacarıqlarının əsasında empatiya qurmaq dayanır. Bu dizaynerə
+                                istifadəçi problemlərini tapmaq və həll etməkdə kömək olacaq. Dizaynın məqsədi məhsuldan
+                                yalnız təcrübəli insanların deyil də hərkəsin istifadə edə bilməsini təmin etmək
+                                olmalıdır. Növbəti isə vizual ünsiyyət bacarığıdır ki, istifadəçilərə böyük təsir
+                                göstərən interaktiv prototiplər və maketlər yaratmağa kömək edir.
+                                Vizual ünsiyyət plan, rəng, tipoqrafiya, nişanlar, şəkillər və dizayn nəzəriyyəsi
+                                haqqında anlayışı əhatə edir.</p>
+                            <p>UX dizayneri istifadəçi tədqiqat bacarıqlarına sahib olmalıdır, çünki dizaynlar aparılan
+                                tədqiqatlar əsasında yaradılır. Tədqiqat istifadəçilər, onların ehtiyacları,
+                                gözləntiləri, motivasiyaları və s. haqqında məlumat verir. Bu məlumatlar UX dizaynerinə
+                                istifadəçilər üçün daha uyğun və xoşagələn dizaynlar hazırlamağa kömək edir. Əlavə
+                                olaraq qeyd edim ki, kodlaşdırma bacarığı ux/ui dizayner üçün tələb deyil, sadəcə dizayn
+                                zamanı yuvarlaq ədədlərdən istifadə sizin dizaynınızı developerlər üçün daha rahat
+                                edəcək və həmçinin bu zaman dizayn gözə daha yaxşı görünəcək. </p>
+                            <h4>UX/UI üzrə sizə lazım ola biləcək Resurslar
+                            </h4>
+                            <p>Onlayn olaraq bir çox resurslar ilə tanış olub bilik və bacarıqlarınızı artıra
+                                bilərsiniz. Əsas istifadə olunan proqramlardan biri Figmadır. Figmanın xüsusiyyətləri
+                                kifayət qədər genişdir və daim yenilənməkdədir. “Figma community” isə sizə hazır
+                                şablonlar ilə təcrübəsi az olanlar üçün faydalı olacaqdır. Bundan əlavə olaraq
+                                dizaynlarınızda Sketch, Whimsical, UXPin, Adobe XD, Balsamiq kimi proqramlardan da
+                                istifadə edə bilərsiniz. </p>
+
+                            <p>Dribble və Behance platformaları digər dizaynerlərin işlərinə baxıb analiz etmək və ilham
+                                almaq üçün tövsiyə olunur. Həmçinin öz protfolionuzu bu saytlarda yaratmaq sizə
+                                işlərinizi təqdim etməkdə yardımçı olacaqdır. </p>
+                            <p>UX kurslari olaraq Google-un UX/UI design kursundan və Udemydəki əlaqədar kurslardan
+                                yararlana bilərsiniz. Həmçinin Youtube-da dizaynla bağlı bir çox kanallar da köməyinizə
+                                çatacaq. Həmin kanallar və istifadə edə biləcəyiniz digər online resursların linkini
+                                aşağı yerləşdirirəm: Aşağıda bəzu UX kurslarini sizinlə bölüşürük.</p>
                             <ul>
-                                <li>Consulting</li>
-                                <li>Customer Service</li>
-                                <li>Innovation</li>
-                                <li>Management</li>
-                                <li>Ethics</li>
+                                <li>FigmaDesign</li>
+                                <li>DesignSense</li>
+                                <li>DesignCourse</li>
+                                <li>UXpin</li>
                             </ul>
-                            <p>To make good progress in your programming task, you need to test your work as early and
-                                as
-                                thoroughly as
-                                possible. Everybody makes mistakes while programming and finding mistakes in programs
-                                consumes a very large part
-                                of a programmer’s work-day. Finding a problem in a small and easy piece of code is much
-                                simpler than trying to
-                                spot it in a large program. </p>
-                            <ol>
-                                <li>Consulting</li>
-                                <li>Customer Service</li>
-                                <li>Innovation</li>
-                                <li>Management</li>
-                                <li>Ethics</li>
-                            </ol>
-                            <p>To make good progress in your programming task, you need to test your work as early and
-                                as
-                                thoroughly as
-                                possible. Everybody makes mistakes while programming and finding mistakes in programs
-                                consumes a very large part
-                                of a programmer’s work-day. Finding a problem in a small and easy piece of code is much
-                                simpler than trying to
-                                spot it in a large program. </p>
-                            <div class="table-responsive-outer">
-                                <div class="table-responsive">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>Consulting</th>
-                                                <th>Service</th>
-                                                <th>Innovation</th>
-                                                <th>Management</th>
-                                                <th>Ethics</th>
-                                                <th>verified </th>
-                                                <th>Ethics</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Consulting</td>
-                                                <td>1.12</td>
-                                                <td>4.35</td>
-                                                <td>1.43</td>
-                                                <td>2.32</td>
-                                                <td>5.32</td>
-                                                <td>2.11</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Customer Service</td>
-                                                <td>1.44</td>
-                                                <td>1.66</td>
-                                                <td>1.43</td>
-                                                <td>2.33</td>
-                                                <td>5.32</td>
-                                                <td>3</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Innovation</td>
-                                                <td>4.12</td>
-                                                <td>1.22</td>
-                                                <td>4.55</td>
-                                                <td>2.33</td>
-                                                <td>5.28</td>
-                                                <td>2</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Customer Service</td>
-                                                <td>1.44</td>
-                                                <td>1.66</td>
-                                                <td>1.43</td>
-                                                <td>2.33</td>
-                                                <td>5.32</td>
-                                                <td>3</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <td>All Items</td>
-                                                <td>22</td>
-                                                <td>13</td>
-                                                <td>14</td>
-                                                <td>9</td>
-                                                <td>17</td>
-                                                <td>11</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-                            <p>A reasonable method would be to find the smallest element, write it down and cross it out
-                                of
-                                the original list
-                                and repeat this process until you have sorted the whole list. Then you have to teach the
-                                computer 1) how to find
-                                the smallest element, 2) how to write it down, 3) how to cross it out, and wrap this in
-                                a
-                                loop. Then continue
-                                this task breakdown process until you’re confident you know how to write the necessary
-                                program.</p>
                         </article>
                         <footer class="news-post-footer">
                             <div class="row align-items-center justify-content-between items">
                                 <div class="col-md col-12 col-margin">
                                     <ul class="news-post-cat">
-                                        <li><a href="#!">Startup</a></li>
-                                        <li><a href="#!">Software Development</a></li>
+                                        <li><a href="#!">UI/UX dizayn</a></li>
+                                        <li><a href="#!">Dizayn</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-auto col-12 col-margin">
                                     <div class="news-post-share d-flex align-items-center">
-                                        <p class="news-post-share-title">Share</p>
+                                        <p class="news-post-share-title">Paylaş</p>
                                         <ul class="page-social-links">
                                             <li>
                                                 <a href="#!" title="Facebook">
@@ -437,14 +309,14 @@
                         <div class="blog-recent col-margin">
                             <div class="row">
                                 <div class="col-12">
-                                    <h4 style="margin-bottom: 2rem;">Recent Posts</h4>
+                                    <h4 style="margin-bottom: 2rem;">Oxşar Məqalələr</h4>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
                                     <div class="news-item">
                                         <a href="#!" class="news-img">
-                                            <img src="./img/news-img-3.jpg" alt="">
+                                            <img src="https://www.ekaryera.az/adminpage/uploads/1644395117ofismeneceri-vakansiya.png" alt="">
                                         </a>
                                         <div class="news-info">
                                             <div class="news-day">
@@ -452,19 +324,19 @@
                                             </div>
                                             <div class="news-item-title">
                                                 <a href="">
-                                                    <h4>Hibernate Query Language</h4>
+                                                    <h4>Necə Ofis meneceri olmaq olar?</h4>
                                                 </a>
                                             </div>
                                             <div class="news-item-text">
-                                                <p>In this tutorial, we will discuss the Hibernate Query Language.</p>
+                                                <p>Ofis menecerləri bir sıra inzibati, maliyyə və idarəetmə vəzifələri ilə bir ofisin səmərəli...</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="news-item">
-                                        <a href="#" class="news-img">
-                                            <img src="./img/news-img-2.jpg" alt="">
+                                        <a href="#!" class="news-img">
+                                            <img src="https://www.ekaryera.az/adminpage/uploads/1644394360developerolmaq.jpg" alt="">
                                         </a>
                                         <div class="news-info">
                                             <div class="news-day">
@@ -472,11 +344,11 @@
                                             </div>
                                             <div class="news-item-title">
                                                 <a href="">
-                                                    <h4>Key Considerations Of IPaaS</h4>
+                                                    <h4>Necə Junior Developer olmaq olar?</h4>
                                                 </a>
                                             </div>
                                             <div class="news-item-text">
-                                                <p>Digital transformation requires cloud appropriate adoption</p>
+                                                <p>Bir veb developer olmaq fikriniz varsa, bəzi bacarıqlara sahib olmalısınız.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -486,7 +358,7 @@
                         <div class="blog-Comment">
                             <div class="row">
                                 <div class="col-12">
-                                    <h4 style="margin-bottom: 2rem;">Comments</h4>
+                                    <h4 style="margin-bottom: 2rem;">Şərhlər</h4>
                                 </div>
                             </div>
                             <div class="row">
@@ -498,23 +370,21 @@
                                                     <div class="col">
                                                         <div class="comment-item-author d-flex align-items-center">
                                                             <div class="comment-item-author-img">
-                                                                <img src="./img/auth-img-1.jpg" alt="">
+                                                                <img src="https://cetcc.com.br/giga_site_git/public/cetcc/img/user/user.png" alt="">
                                                             </div>
                                                             <div class="comment-item-author-info">
-                                                                <h4>Catherine Williams</h4>
+                                                                <h4>Ruslan Qələndərli</h4>
                                                                 <p>Jan 23, 2021</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-auto">
-                                                        <a href="#!" class="comment-item-replay">Reply</a>
+                                                        <a href="#!" class="comment-item-replay">Cavab ver</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="comment-item-desc">
-                                                <p>PathSoft offers a high caliber of resources skilled in Microsoft
-                                                    Azure.NET, mobile and Quality Assurance. They became
-                                                    our true business partners over the past three years.</p>
+                                                <p>WiseTime, Microsoft Azure-da bacarıqlı yüksək kalibrli resurslar təklif edir. NET, mobil və Keyfiyyət Təminatı. Son üç il ərzində onlar bizim əsl iş ortağımız oldular.</p>
                                             </div>
                                         </div>
                                         <div class="comment-replay">
@@ -524,22 +394,21 @@
                                                         <div class="col">
                                                             <div class="comment-item-author d-flex align-items-center">
                                                                 <div class="comment-item-author-img">
-                                                                    <img src="./img/auth-img-2.jpg" alt="">
+                                                                    <img src="https://cetcc.com.br/giga_site_git/public/cetcc/img/user/user.png" alt="">
                                                                 </div>
                                                                 <div class="comment-item-author-info">
-                                                                    <h4>Rupert Wood</h4>
+                                                                    <h4>Murad Orucov</h4>
                                                                     <p>Jan 23, 2021</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="col-auto">
-                                                            <a href="#!" class="comment-item-replay">Reply</a>
+                                                            <a href="#!" class="comment-item-replay">Cavab ver</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="comment-item-desc">
-                                                    <p>PathSoft offers a high caliber of resources skilled in Microsoft
-                                                        Azure.NET</p>
+                                                    <p>WiseTime, Microsoft Azure.NET-də bacarıqlı yüksək kalibrli resurslar təklif edir</p>
                                                 </div>
                                             </div>
                                             <div class="comment-item">
@@ -548,7 +417,7 @@
                                                         <div class="col">
                                                             <div class="comment-item-author d-flex align-items-center">
                                                                 <div class="comment-item-author-img">
-                                                                    <img src="./img/auth-img-1.jpg" alt="">
+                                                                    <img src="https://cetcc.com.br/giga_site_git/public/cetcc/img/user/user.png" alt="">
                                                                 </div>
                                                                 <div class="comment-item-author-info">
                                                                     <h4>Catherine Williams</h4>
@@ -557,12 +426,12 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-auto">
-                                                            <a href="#!" class="comment-item-replay">Reply</a>
+                                                            <a href="#!" class="comment-item-replay">Cavab ver</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="comment-item-desc">
-                                                    <p>PathSoft offers a high caliber</p>
+                                                    <p>WiseTime yüksək kalibr təklif edir</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -574,24 +443,21 @@
                                                     <div class="col">
                                                         <div class="comment-item-author d-flex align-items-center">
                                                             <div class="comment-item-author-img">
-                                                                <img src="./img/auth-img-3.jpg" alt="">
+                                                                <img src="https://cetcc.com.br/giga_site_git/public/cetcc/img/user/user.png" alt="">
                                                             </div>
                                                             <div class="comment-item-author-info">
-                                                                <h4>Samantha Brown</h4>
+                                                                <h4>Həcər Qasımova</h4>
                                                                 <p>Jan 23, 2021</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-auto">
-                                                        <a href="#!" class="comment-item-replay">Reply</a>
+                                                        <a href="#!" class="comment-item-replay">Cavab ver</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="comment-item-desc">
-                                                <p>PathSoft offers a high caliber of resources skilled in Microsoft
-                                                    Azure.NET, mobile and Quality Assurance.
-                                                    They became
-                                                    our true business partners over the past three years.</p>
+                                                <p>WiseTime, Microsoft Azure-da bacarıqlı yüksək kalibrli resurslar təklif edir. NET, mobil və Keyfiyyət Təminatı. Son üç il ərzində onlar bizim əsl iş ortağımız oldular.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -601,7 +467,7 @@
                         <div class="blog-form">
                             <div class="row">
                                 <div class="col-12">
-                                    <h3 style="margin-bottom: 2rem;">Add Your Comment</h3>
+                                    <h3 style="margin-bottom: 2rem;">Şərhinizi əlavə edin</h3>
                                 </div>
                             </div>
                             <div class="row">
@@ -609,15 +475,15 @@
                                     <form action="#" class="contact-form">
                                         <div class="row ">
                                             <div class="col-6">
-                                                <input type="text" i placeholder="Your Name" class="form">
+                                                <input type="text" i placeholder="Ad və Soyad" class="form">
                                             </div>
                                             <div class="col-6">
-                                                <input type="tel" i placeholder="Your Email" class="form">
+                                                <input type="tel" i placeholder="Email" class="form">
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-12">
-                                                <textarea cols="30" rows="8" placeholder="Your Comment"
+                                                <textarea cols="30" rows="8" placeholder="Şərh"
                                                     class="textarea"></textarea>
                                             </div>
                                         </div>
@@ -626,7 +492,7 @@
                                                 <div class="bttn-row " style="margin-top:20px;">
                                                     <a href="/">
                                                         <div class="bttn">
-                                                            <span>Add Comment</span>
+                                                            <span>Şərh əlavə et</span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -642,93 +508,93 @@
                     <div class="blog-sidebar">
                         <form action="#!" class="col-margin">
                             <div class="blog-form-item">
-                                <input type="email" i placeholder="Search..." class="blog-search">
+                                <input type="email" i placeholder="Axtar..." class="blog-search">
                                 <button type="submit" class="search-btn"><i
                                         class="material-icons md-22">search</i></button>
                             </div>
                         </form>
                         <div class="blog-sidebar-title col-margin">
-                            <h4 class="sidebar-item-title item-title">Sign Up to Blog</h4>
-                            <p class="sidebar-item-desc">Subscribe to our blog to get the latest updates and offers</p>
+                            <h4 class="sidebar-item-title item-title">Bloqa Abunə ol</h4>
+                            <p class="sidebar-item-desc">Ən son yeniləmələri və təklifləri əldə etmək üçün bloqumuza abunə olun</p>
                             <form action="#!" method="post" class="subscribe-blog-form" novalidate="novalidate">
                                 <div class="form-field">
-                                    <label for="subscribe-blog-email" class="form-field-label">Your Email</label>
+                                    <label for="subscribe-blog-email" class="form-field-label">Email</label>
                                     <input type="email" class="form-field-input" name="SubscribeEmail" value=""
                                         autocomplete="off" required="required" id="subscribe-blog-email">
                                 </div>
                                 <div class="form-btn">
-                                    <button type="submit" class="btn btn-w240 ripple">Send Message</button>
+                                    <button type="submit" class="btn btn-w240 ripple">Göndər</button>
                                 </div>
                             </form>
                         </div>
                         <div class="blog-sidebar-future col-margin">
-                            <h4>Featured Tags</h4>
+                            <h4>Təqlər</h4>
                             <ul class="sidebar-tags">
-                                <li><a href="#!">Software</a></li>
-                                <li><a href="#!">Development</a></li>
-                                <li><a href="#!">Programming</a></li>
-                                <li><a href="#!">Software</a></li>
-                                <li><a href="#!">Development</a></li>
+                                <li><a href="#!">İmtahan</a></li>
+                                <li><a href="#!">Bakanlavr</a></li>
+                                <li><a href="#!">Magistratura</a></li>
+                                <li><a href="#!">Mühasib</a></li>
                                 <li><a href="#!">IT</a></li>
+                                <li><a href="#!">Proqramlaşdırma</a></li>
                             </ul>
                         </div>
                         <div class="blog-sidebar-recent col-margin">
-                            <p class="sidebar-item-title item-title">Recent Posts</p>
+                            <p class="sidebar-item-title item-title">Oxşar Məqalələr</p>
                             <ul class="sidebar-recent-posts">
                                 <li>
                                     <a href="#!" class="sidebar-recent-post">
                                         <div class="sidebar-recent-post-img img-style">
-                                            <img class="lazy" src="./img/news-img-2.jpg" alt="">
+                                            <img class="lazy" src="https://www.ekaryera.az/adminpage/uploads/1644394360developerolmaq.jpg" alt="">
                                         </div>
-                                        <div class="sidebar-recent-post-title">Benefits of Async/Await in Programming
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="sidebar-recent-post">
-                                        <div class="sidebar-recent-post-img img-style">
-                                            <img class="lazy" src="./img/news-img-2.jpg" alt="">
-                                        </div>
-                                        <div class="sidebar-recent-post-title">Key Considerations and Warnings of iPaaS
+                                        <div class="sidebar-recent-post-title">Necə Junior Developer olmaq olar?
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#!" class="sidebar-recent-post">
                                         <div class="sidebar-recent-post-img img-style">
-                                            <img class="lazy" src="./img/news-img-2.jpg" alt="">
+                                            <img class="lazy" src="https://www.ekaryera.az/adminpage/uploads/1644394360developerolmaq.jpg" alt="">
                                         </div>
-                                        <div class="sidebar-recent-post-title">Usage of Hibernate Query Language</div>
+                                        <div class="sidebar-recent-post-title">Necə Junior Developer olmaq olar?
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="sidebar-recent-post">
+                                        <div class="sidebar-recent-post-img img-style">
+                                            <img class="lazy" src="https://www.ekaryera.az/adminpage/uploads/1644394360developerolmaq.jpg" alt="">
+                                        </div>
+                                        <div class="sidebar-recent-post-title">Necə Junior Developer olmaq olar?</div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="blog-sidebar-categories col-margin">
                             <div class="section-bg item-border-radius sibebar-item-bg">
-                                <p class="sidebar-item-title item-title">Categories</p>
+                                <p class="sidebar-item-title item-title">Kateqoriyalar</p>
                                 <ul class="sidebar-cat">
                                     <li class="sidebar-cat-item">
-                                        <a href="#!" class="sidebar-cat-link">Startup</a>
+                                        <a href="#!" class="sidebar-cat-link">Təhsil və inkişaf</a>
                                         <span class="sidebar-cat-count">25</span>
                                     </li>
                                     <li class="sidebar-cat-item">
-                                        <a href="#!" class="sidebar-cat-link">Software Development</a>
+                                        <a href="#!" class="sidebar-cat-link">İxtisas və peşələr</a>
                                         <span class="sidebar-cat-count">14</span>
                                     </li>
                                     <li class="sidebar-cat-item">
-                                        <a href="#!" class="sidebar-cat-link">Hybrid Cloud Management</a>
+                                        <a href="#!" class="sidebar-cat-link">Müsahibə və CV</a>
                                         <span class="sidebar-cat-count">20</span>
                                     </li>
                                     <li class="sidebar-cat-item">
-                                        <a href="#!" class="sidebar-cat-link">Software Solutions</a>
+                                        <a href="#!" class="sidebar-cat-link">Peşəkar qaydalar</a>
                                         <span class="sidebar-cat-count">3</span>
                                     </li>
                                     <li class="sidebar-cat-item">
-                                        <a href="#!" class="sidebar-cat-link">Creating Better Software</a>
+                                        <a href="#!" class="sidebar-cat-link">İşçi hüquqları</a>
                                         <span class="sidebar-cat-count">18</span>
                                     </li>
                                     <li class="sidebar-cat-item">
-                                        <a href="#!" class="sidebar-cat-link">Through Design Thinking</a>
+                                        <a href="#!" class="sidebar-cat-link">Tələbələrə tövsiyə</a>
                                         <span class="sidebar-cat-count">9</span>
                                     </li>
                                 </ul>
@@ -750,11 +616,12 @@
                     <div class="footer-item">
                         <div class="logo">
                             <a href="./index.html"><img src="./img/logo.png" alt="LOGO PathSoft">
-                                <span><b>PathSoft</b></span></a>
+                                <span><b>WiseTime</b></span></a>
                         </div>
                         <div class="company-info">
-                            <p>Our company has been developing high-quality and reliable software for corporate needs
-                                since 2008. We are renowned professionals of software development.</p>
+                            <p>2012-ci ildə fəaliyyətə başlayan WiseTime yüksək texnologiyalar sahəsində təcrübəli
+                                mütəxəssislər hazırlayan tədris müəssisəsidir.
+                            </p>
                         </div>
                         <div class="company-sosial-media">
                             <a href="https://www.facebook.com/">
@@ -772,75 +639,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="company-menu">
-                        <h4>Menu</h4>
-                        <ul class="company-footer-meniu">
-                            <li>
-                                <a href="./about.html" class="menu-list-to footer-list-to" data-title="About Us">
-                                    <span data-title="About Us"> About Us</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="./services.html" class="menu-list-to footer-list-to"
-                                    data-title="Services">
-                                    <span data-title="Services"> Services</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="./team.html" class="menu-list-to footer-list-to" data-title="Our Team">
-                                    <span data-title="Our Team"> Our Team</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="./blog.html" class="menu-list-to footer-list-to" data-title="News">
-                                    <span data-title="News"> News</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="./contact.html" class="menu-list-to footer-list-to"
-                                    data-title="Contact Us">
-                                    <span data-title="Contact Us"> Contact Us</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="company-menu">
-                        <h4>What We Offer</h4>
-                        <ul class="company-footer-meniu">
-                            <li>
-                                <a href="#" class="menu-list-to footer-list-to" data-title="DB Management">
-                                    <span data-title="DB Management"> DB Management</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="menu-list-to footer-list-to" data-title="IOS/MacOS">
-                                    <span data-title="IOS/MacOS"> IOS/MacOS</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="menu-list-to footer-list-to" data-title="Android Apps">
-                                    <span data-title="Android Apps"> Android Apps</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="menu-list-to footer-list-to" data-title="Windows Apps">
-                                    <span data-title="Windows Apps"> Windows Apps</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="menu-list-to footer-list-to" data-title="UX & UI">
-                                    <span data-title="UX & UI"> UX & UI</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="col-4">
                     <div class="company-contacts">
-                        <h4>Our contacts</h4>
+                        <h4>Əlaqə vasitələri</h4>
                         <div class="company-contacts-item">
                             <ul class="footer-contact">
                                 <li class="d-flex">
@@ -860,22 +661,31 @@
                                 <li class="d-flex">
                                     <i class="fas fa-envelope"></i>
                                     <div class="footer-contact-info"><a
-                                            href="mailto:mail@example.com">mail@example.com</a>
+                                            href="mailto:mail@example.com">wisetime@mail.com</a>
                                     </div>
                                 </li>
                             </ul>
-                            <div class="company-contacts-form">
-                                <h4>Subscribe</h4>
-                                <div class="contacts-form">
-                                    <form action="" class="d-flex">
-                                        <input type="text" placeholder="Your email" name="mail" required
-                                            class="form-email">
-                                        <input type="submit" value="Subscribe" class="form-subscribe">
-                                    </form>
-                                </div>
-                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-4">
+                    <form action="#" class="contact-form" id="forum">
+                        <div class="col-12">
+                            <input type="text" i placeholder="Ad və Soyad" class="forum">
+                        </div>
+                        <div class="col-12">
+                            <input type="tel" i placeholder="Telefon nömrəsi" class="forum">
+                        </div>
+                        <div class="col-12 d-flex justify-content-start">
+                            <div class="bttn-row " style="margin-top:20px;">
+                                <a href="/">
+                                    <div class="bttn">
+                                        <span>Göndər</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -890,10 +700,10 @@
                 <div class="col-12">
                     <div class="copyright-item">
                         <div class="footer-links">
-                            <a href="http://"><span class="conditions">Terms and Conditions</span> </a>
-                            <a href="http://"><span class="privacy">Privacy Policy</span></a>
+                            <a href="#!"><span class="conditions">Terms and Conditions</span> </a>
+                            <a href="#!"><span class="privacy">Privacy Policy</span></a>
                         </div>
-                        <div class="copyright-text">&#169 2020 PathSoft. All rights reserved.</div>
+                        <div class="copyright-text">&#169 2022 WiseTime. All rights reserved.</div>
                     </div>
 
                 </div>

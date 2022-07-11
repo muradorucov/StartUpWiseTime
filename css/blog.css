@@ -125,6 +125,9 @@ ul{
   transition: all 0.25s;
   outline: none;
 }
+.search-btn:focus{
+  outline: 0;
+}
 .search-btn:focus i {
   color: #568ad3;
 }

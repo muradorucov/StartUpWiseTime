@@ -258,7 +258,8 @@ ul {
 }
 .menu-search i {
   position: absolute;
-  font-size: 1.375rem;
+  top: 5px;
+  font-size: 19px;
   width: 1.375rem;
   height: 1.375rem;
   font-weight: 100;
