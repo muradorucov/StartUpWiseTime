@@ -11,9 +11,11 @@ body {
   color: #444;
   margin-bottom: 15px;
 }
-.forms-container{
+
+.forms-container {
   width: 50%;
 }
+
 .register-container {
   display: flex;
   position: relative;
@@ -37,7 +39,6 @@ body {
 .input-field {
   position: relative;
   min-width: 230px;
-  /* width: 42%; */
   display: flex;
   background-color: #f0f0f0;
   margin: 15px 10px;
@@ -48,7 +49,7 @@ body {
   padding: 0 0.4rem;
 }
 
-.input-field:hover{
+.input-field:hover {
   border: 1px solid #5995fd;
   transition: ease .3s;
 }
@@ -62,13 +63,13 @@ body {
   color: #333;
   border-radius: 55px;
 }
+
 .label-register {
   text-align: center;
   color: #acacac;
   transition: 0.5s;
   font-size: 15px;
 }
-
 
 label {
   margin: 0 !important;
@@ -91,34 +92,18 @@ label i {
   outline: 0;
   border: 0;
 }
+
 input[type="date"]::-webkit-calendar-picker-indicator {
   color: rgba(0, 0, 0, 0);
   opacity: 1;
   display: block;
-  background: url(/*yourURLHere*/) no-repeat;
+  background: url(/*URL*/) no-repeat;
   width: 25px;
   height: 25px;
   border-width: thin;
-  /* margin-left: 50%; */
 }
-/* ::-webkit-calendar-picker-indicator {
-  position: absolute;
-  left: 10px;
-  background: ;
-  color: #acacac;
-  font-size: 1.2rem;
-  opacity: 0;
-}
-
-::-webkit-datetime-edit-fields-wrapper {
-  position: absolute;
-  left: 38px;
-  top: 18px;
-  /* margin-left: 300px; */
-/* }  */
 
 .register-text-danger {
-  /* display: none; */
   width: 250px;
   position: absolute;
   bottom: -17px;
@@ -239,7 +224,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .register-text-danger {
     font-size: 11px;
-    /* display: none; */
   }
 
   .input-field {
@@ -250,9 +234,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media (max-width: 999px) {
-  .forms-container{
+  .forms-container {
     width: 100%;
   }
+
   .register-container {
     display: block;
   }
@@ -294,11 +279,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media (max-width: 570px) {
-  .forms-container{
+  .forms-container {
     width: 100%;
   }
+
   .register-container::before {
-    transform: translate(53%, 51%);
+    transform: translate(53%, 48%);
   }
 
   .register-input {
@@ -307,11 +293,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin: auto;
   }
 
-  label{
+  label {
     display: block !important;
   }
+
   .input-field {
-    height: 47px;
+    height: 40px;
     margin: 10px auto;
     margin-top: 0;
     align-items: center;
@@ -333,9 +320,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .register-text-danger {
-    /* display: none; */
     font-size: 9px;
     bottom: -15px;
+  }
+
+  label i {
+    font-size: 12px;
+    margin-left: 9px;
+  }
+
+  .label-register {
+    font-size: 13px;
   }
 
   .image {
