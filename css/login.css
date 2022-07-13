@@ -133,6 +133,11 @@ form.sign-in-form {
   margin-left: 50px;
 }
 
+.reset{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #5995fd;
+}
 .social-text {
   padding: 0.7rem 0;
   font-size: 1rem;
