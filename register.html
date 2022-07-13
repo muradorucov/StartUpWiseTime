@@ -22,74 +22,108 @@
             <form action="" class="sign-up-form">
                 <h2 class="title">Qeydiyyat</h2>
                 <div class="register-input">
-                    <div class="input-field margin-input">
+                    <label for="name">
                         <i class="fas fa-user" aria-hidden="true"></i>
-                        <input type="text" placeholder="Ad">
-                        <span class="register-text-danger"> Ad 50 simvoldan çox olmamalıdır</span>
-                    </div>
-                    <div class="input-field ">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Soyad" />
-                        <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
-                    </div>
+                        <span class="label-register">Ad</span>
+                        <div class="input-field margin-input">
+                            <input type="text" name="name">
+                            <span class="register-text-danger"> Ad 50 simvoldan çox olmamalıdır</span>
+                        </div>
+                    </label>
+                    <label for="surname">
+                        <i class="far fa-user"></i>
+                        <span class="label-register">Soyad</span>
+                        <div class="input-field ">
+                            <input type="text" name="surname" />
+                            <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
+                        </div>
+                    </label>
                 </div>
                 <div class="register-input">
-                    <div class="input-field margin-input">
+                    <label for="phonenumber">
                         <i class="fas fa-phone"></i>
-                        <input type="text" placeholder="Telefon Nömrəsi" />
-                        <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
-                    </div>
-                    <div class="input-field">
+                        <span class="label-register">Telefon Nömrəsi</span>
+                        <div class="input-field margin-input">
+                            <input type="text" name="phonenumber" />
+                            <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
+                        </div>
+                    </label>
+                    <label for="email">
                         <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email" />
-                        <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
-                    </div>
+                        <span class="label-register">Email</span>
+                        <div class="input-field">
+                            <input type="email" name="email" />
+                            <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
+                        </div>
+                    </label>
                 </div>
                 <div class="register-input">
-                    <div class="input-field margin-input">
+                    <label for="school">
                         <i class="fas fa-school"></i>
-                        <input type="text" placeholder="Məktəb" />
-                        <span class="register-text-danger">Məktəb adı 50 hərfdən az olmalıdır</span>
-                    </div>
-                    <div class="input-field ">
+                        <span class="label-register">Məktəb</span>
+                        <div class="input-field margin-input">
+                            <input type="text" name="school" />
+                            <span class="register-text-danger">Məktəb adı 50 hərfdən az olmalıdır</span>
+                        </div>
+                    </label>
+                    <label for="university">
                         <i class="fas fa-university"></i>
-                        <input type="text" placeholder="Universitet" />
-                        <span class="register-text-danger">Universitet adı 50 hərfdən az olmalıdır</span>
-                    </div>
+                        <span class="label-register">Universitet</span>
+                        <div class="input-field ">
+                            <input type="text" name="university" />
+                            <span class="register-text-danger">Universitet adı 50 hərfdən az olmalıdır</span>
+                        </div>
+                    </label>
                 </div>
                 <div class="register-input">
-                    <div class="input-field margin-input">
+                    <label for="cardnum">
                         <i class="fas fa-id-card"></i>
-                        <input type="text" placeholder="Fin" />
-                        <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
-                    </div>
-                    <div class="input-field ">
-                        <input type="date" placeholder="Doğum tarixi" />
-                        <span class="register-text-danger">Doğum tarixi seçilməyib</span>
-                    </div>
+                        <span class="label-register">Fin</span>
+                        <div class="input-field margin-input">
+                            <input type="text" name="cardnum" />
+                            <span class="register-text-danger"> Bu hissə boş qala bilməz</span>
+                        </div>
+                    </label>
+                    <label for="birthday">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span class="label-register">Doğum tarixi</span>
+                        <div class="input-field ">
+                            <input type="date" name="birthday" />
+                            <span class="register-text-danger">Doğum tarixi seçilməyib</span>
+                        </div>
+                    </label>
                 </div>
                 <div class="register-input">
-                    <div class="input-field margin-input">
+                    <label for="gender">
                         <i class="fas fa-venus-mars"></i>
-                        <select name="gender" id="gender" class="gender">
-                            <option value="volvo">Cinsiyyət seçin</option>
-                            <option value="volvo">Kişi</option>
-                            <option value="saab">Qadın</option>
-                        </select>
-                        <span class="register-text-danger"> Heçnə seçilməyib</span>
-                    </div>
-                    <div class="input-field">
+                        <span class="label-register">Cinsiyyət seçin</span>
+                        <div class="input-field margin-input">
+                            <select name="gender" id="gender" class="gender">
+                                <option value="deafult"></option>
+                                <option value="man">Kişi</option>
+                                <option value="woman">Qadın</option>
+                            </select>
+                            <span class="register-text-danger"> Heçnə seçilməyib</span>
+                        </div>
+                    </label>
+                    <label for="password">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Şifrə" />
-                        <span class="register-text-danger">Şifrə 8 simvoldan az olmamalıdır</span>
-                    </div>
+                        <span class="label-register">Şifrə</span>
+                        <div class="input-field">
+                            <input type="password" name="password" />
+                            <span class="register-text-danger">Şifrə 8 simvoldan az olmamalıdır</span>
+                        </div>
+                    </label>
                 </div>
                 <div class="register-input">
-                    <div class="input-field">
+                    <label for="password-again">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Təkrar Şifrə" />
-                        <span class="register-text-danger">Təkrar Şifrə uyğun deyil</span>
-                    </div>
+                        <span class="label-register">Təkrar Şifrə</span>
+                        <div class="input-field">
+                            <input type="password" name="password-again" />
+                            <span class="register-text-danger">Təkrar Şifrə uyğun deyil</span>
+                        </div>
+                    </label>
                 </div>
                 <div class="register-btn">
                     <input type="submit" class="btn-item" value="Qeydiyyat" />
