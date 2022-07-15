@@ -35,59 +35,6 @@
 
 <body>
     <a name="goback"></a>
-    <!--== Start Header-Contact nav ==-->
-    <nav id="header-contact">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <!--== Header contact info start ==-->
-                <div class="col-auto">
-                    <ul class="header-top-info align-items-center justify-content-between d-flex">
-                        <li>
-                            <a href="mailto:wisetime@mail.com">
-                                <i class="fas fa-envelope"></i>
-                                <span>wisetime@mail.com</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+18887771234">
-                                <i class="fas fa-headset"></i>
-                                <span>1-888-777-1234</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!--== Header contact info end ==-->
-
-                <!--== Header Social Icon start ==-->
-                <div class="col-auto">
-                    <div class="header-top-links align-items-center justify-content-between d-flex ">
-                        <ul class="social-links">
-                            <li>
-                                <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="#!"><i class="fab fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                            <li>
-                                <a href="#!"><i class="fab fa-twitter	"></i></a>
-                            </li>
-                        </ul>
-                        <div class="header-top-btn">
-                            <a href="#forum" class="header-call-back-link">
-                                <i class="material-icons">ring_volume</i>
-                                <span>Sizə zəng edək</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!--== Header Social Icon end ==-->
-            </div>
-        </div>
-    </nav>
-    <!--== End Header-Contact nav ==-->
 
     <!--==  meniu-navbar start ==-->
     <section id="meniu-bar" class="sticky-menu">
@@ -101,8 +48,40 @@
             <div class="meniu-item">
                 <ul>
                     <li>
-                        <a href="#!" class="menu-list-to" data-title="Qrup">
-                            <span data-title="Qrup">Qrup</span>
+                        <a href="/" class="menu-list-to" data-title="Əsas səhifə">
+                            <span data-title="Əsas səhifə">Əsas səhifə</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-list-to" data-title="Imtahan">
+                            <span data-title="Imtahan">Imtahan</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#!" class="menu-list-to" data-title="Bakalavr">
+                                    <span data-title="Bakalavr">Bakalavr</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="menu-list-to" data-title="Magistratura">
+                                    <span data-title="Magistratura">Magistratura</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="menu-list-to" data-title="Doktorantura">
+                                    <span data-title="Doktorantura">Doktorantura</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="menu-list-to" data-title="Müəllim">
+                                    <span data-title="Müəllim">Müəllim</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="menu-list-to" data-title="Haqqımızda">
+                            <span data-title="Haqqımızda">Haqqımızda</span>
                         </a>
                     </li>
                     <li>
@@ -115,25 +94,32 @@
                             <span data-title="Əlaqə">Əlaqə</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#!" class="menu-list-to" data-title="Xüsusiyyət">
-                            <span data-title="Xüsusiyyət">Xüsusiyyət</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#!" class="menu-list-to" data-title="Yardım">
-                            <span data-title="Yardım">Yardım</span>
-                        </a>
-                    </li>
                     <li class="menu-search">
                         <i class="material-icons md-22 header-search-ico-search">search</i>
                         <input type="search" name="search" id="search" placeholder="Axtar...">
                     </li>
                     <li>
-                        <a href="#!" class="menu-profil">
+                        <a href="#!" class="menu-list-to menu-profil" data-title="Profil">
+                            <span data-title="Profil">Profil</span>
                             <i class="fas fa-user-circle"></i>
-                            <span>Profil</span>
                         </a>
+                        <ul class="profile-ul">
+                            <li>
+                                <a href="#!" class="menu-list-to" data-title="Tənzimləmələr">
+                                    <span data-title="Tənzimləmələr">Tənzimləmələr</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="menu-list-to" data-title="Yardım">
+                                    <span data-title="Yardım">Yardım</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="menu-list-to" data-title="Çıxış">
+                                    <span data-title="Çıxış">Çıxış</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -168,7 +154,8 @@
                                 </a>
                             </div>
                             <div class="news-item-text">
-                                <p>Əvvəlcə UX və UI-ın nə olduğuna baxaq. UX dizaynı "istifadəçi təcrübəsi dizaynı"...</p>
+                                <p>Əvvəlcə UX və UI-ın nə olduğuna baxaq. UX dizaynı "istifadəçi təcrübəsi dizaynı"...
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -176,7 +163,8 @@
                 <div class="col-4 newsbox">
                     <div class="news-item">
                         <a href="#" class="news-img">
-                            <img src="https://www.ekaryera.az/adminpage/uploads/1644395117ofismeneceri-vakansiya.png" alt="">
+                            <img src="https://www.ekaryera.az/adminpage/uploads/1644395117ofismeneceri-vakansiya.png"
+                                alt="">
                         </a>
                         <div class="news-info">
                             <div class="news-day">
@@ -188,7 +176,8 @@
                                 </a>
                             </div>
                             <div class="news-item-text">
-                                <p>Ofis menecerləri bir sıra inzibati, maliyyə və idarəetmə vəzifələri ilə bir ofisin səmərəli...</p>
+                                <p>Ofis menecerləri bir sıra inzibati, maliyyə və idarəetmə vəzifələri ilə bir ofisin
+                                    səmərəli...</p>
                             </div>
                         </div>
                     </div>
@@ -208,7 +197,8 @@
                                 </a>
                             </div>
                             <div class="news-item-text">
-                                <p>Bir veb developer olmaq fikriniz varsa, bəzi bacarıqlara sahib olmalısınız. Seçdiyiniz proqramlaşdır...</p>
+                                <p>Bir veb developer olmaq fikriniz varsa, bəzi bacarıqlara sahib olmalısınız.
+                                    Seçdiyiniz proqramlaşdır...</p>
                             </div>
                         </div>
                     </div>
@@ -216,7 +206,8 @@
                 <div class="col-4 newsbox">
                     <div class="news-item">
                         <a href="#" class="news-img">
-                            <img src="https://www.ekaryera.az/adminpage/uploads/1644395117ofismeneceri-vakansiya.png" alt="">
+                            <img src="https://www.ekaryera.az/adminpage/uploads/1644395117ofismeneceri-vakansiya.png"
+                                alt="">
                         </a>
                         <div class="news-info">
                             <div class="news-day">
@@ -228,7 +219,8 @@
                                 </a>
                             </div>
                             <div class="news-item-text">
-                                <p>Ofis menecerləri bir sıra inzibati, maliyyə və idarəetmə vəzifələri ilə bir ofisin səmərəli...</p>
+                                <p>Ofis menecerləri bir sıra inzibati, maliyyə və idarəetmə vəzifələri ilə bir ofisin
+                                    səmərəli...</p>
                             </div>
                         </div>
                     </div>
@@ -248,7 +240,8 @@
                                 </a>
                             </div>
                             <div class="news-item-text">
-                                <p>Bir veb developer olmaq fikriniz varsa, bəzi bacarıqlara sahib olmalısınız. Seçdiyiniz proqramlaşdır...</p>
+                                <p>Bir veb developer olmaq fikriniz varsa, bəzi bacarıqlara sahib olmalısınız.
+                                    Seçdiyiniz proqramlaşdır...</p>
                             </div>
                         </div>
                     </div>
@@ -268,7 +261,8 @@
                                 </a>
                             </div>
                             <div class="news-item-text">
-                                <p>Əvvəlcə UX və UI-ın nə olduğuna baxaq. UX dizaynı "istifadəçi təcrübəsi dizaynı"...</p>
+                                <p>Əvvəlcə UX və UI-ın nə olduğuna baxaq. UX dizaynı "istifadəçi təcrübəsi dizaynı"...
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -295,14 +289,16 @@
     <section id="footer">
         <div class="container section-padding">
             <div class="row">
-                <div class="col-4">
+                <div class="col-6">
                     <div class="footer-item">
                         <div class="logo">
                             <a href="./index.html"><img src="./img/logo.png" alt="LOGO PathSoft">
                                 <span><b>WiseTime</b></span></a>
                         </div>
                         <div class="company-info">
-                            <p>2012-ci ildə fəaliyyətə başlayan WiseTime yüksək texnologiyalar sahəsində təcrübəli mütəxəssislər hazırlayan tədris müəssisəsidir.
+                            <p>2012-ci ildə fəaliyyətə başlayan WiseTime yüksək texnologiyalar sahəsində təcrübəli
+                                mütəxəssislər hazırlayan tədris müəssisəsidir.2012-ci ildə fəaliyyətə başlayan WiseTime yüksək texnologiyalar sahəsində təcrübəli
+                                mütəxəssislər hazırlayan tədris müəssisəsidir.
                             </p>
                         </div>
                         <div class="company-sosial-media">
@@ -321,7 +317,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-6 d-flex justify-content-end">
                     <div class="company-contacts">
                         <h4>Əlaqə vasitələri</h4>
                         <div class="company-contacts-item">
@@ -350,25 +346,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <form action="#" class="contact-form" id="forum">
-                            <div class="col-12">
-                                <input type="text" i placeholder="Ad və Soyad" class="forum">
-                            </div>
-                            <div class="col-12">
-                                <input type="tel" i placeholder="Telefon nömrəsi" class="forum">
-                            </div>
-                            <div class="col-12 d-flex justify-content-start">
-                                <div class="bttn-row " style="margin-top:20px;">
-                                    <a href="/">
-                                        <div class="bttn">
-                                            <span>Göndər</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
@@ -393,6 +370,7 @@
         </div>
     </section>
     <!-- footer Copyright end -->
+
     <a href="#goback" class="goback">
         <i class="material-icons"> east</i>
     </a>

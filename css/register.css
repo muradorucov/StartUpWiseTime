@@ -104,7 +104,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .register-text-danger {
-  display: none;
   width: 250px;
   position: absolute;
   bottom: -17px;

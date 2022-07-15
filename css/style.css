@@ -8,21 +8,27 @@ h2,
 h5 {
   font-family: Montserrat, sans-serif;
 }
+
 a:link {
   text-decoration: none;
 }
+
 .section-padding {
   padding: 5rem 0;
 }
+
 .copyright-padding {
   padding: 3rem 0;
 }
+
 .col-margin {
   margin-bottom: 45px;
 }
+
 ul {
   list-style: none;
 }
+
 /*<====-- header contact info and social icon start --====>*/
 #header-contact {
   position: relative;
@@ -37,15 +43,18 @@ ul {
   display: flex;
   align-items: center;
 }
+
 #header-contact ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 #header-contact ul li {
   display: flex;
   align-items: center;
 }
+
 #header-contact a {
   display: flex;
   align-items: center;
@@ -58,6 +67,7 @@ ul {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
 }
+
 #header-contact a:hover {
   opacity: 1;
   transition: all 0.2s;
@@ -66,11 +76,13 @@ ul {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
 }
+
 .header-top-info li {
   display: flex;
   align-items: center;
   margin-left: 1rem;
 }
+
 .header-top-info li a i {
   margin-right: 0.625rem;
 }
@@ -79,15 +91,19 @@ ul {
   font-size: 1rem;
   vertical-align: middle;
 }
+
 .social-links li {
   margin-right: 1rem;
 }
+
 .social-links li:last-child {
   margin-right: 0;
 }
-.header-top-links > * {
+
+.header-top-links>* {
   margin-left: 2rem;
 }
+
 .header-top-btn span {
   border-bottom: 1px dashed;
   transition: all 0.2s;
@@ -96,6 +112,7 @@ ul {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
 }
+
 .header-top-btn a:hover span {
   border-bottom: 1px solid;
   transition: all 0.2s;
@@ -104,6 +121,7 @@ ul {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
 }
+
 /*<====-- header contact info and social icon end --====>*/
 
 /*<====-- header meniu start --====>*/
@@ -112,13 +130,15 @@ ul {
   top: 0;
   z-index: 10000000;
 }
+
 #meniu-bar {
   box-sizing: border-box;
   box-shadow: 0.125rem 0.25rem 1.25rem 0.0875rem rgb(45 45 45 / 13%);
   font-family: "Istok Web", sans-serif;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.945);
   height: 75px;
 }
+
 .meniu-nav {
   width: 80%;
   margin: 0 auto;
@@ -126,16 +146,19 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.meniu-nav ul > li {
+
+.meniu-nav ul>li {
   text-decoration: none;
   padding-bottom: 20px;
   padding-left: 1.9rem;
 }
+
 .meniu-item {
   font-size: 1rem;
   height: 35px;
   color: #212222;
 }
+
 .meniu-item a:link {
   color: #303036;
   text-decoration: none;
@@ -146,6 +169,7 @@ ul {
   vertical-align: middle;
   color: #2c7ae7;
 }
+
 .meniu-nav ul {
   padding: 0;
   margin: 0;
@@ -155,26 +179,33 @@ ul {
   top: 10px;
   z-index: 3;
 }
+
 .meniu-nav ul {
   cursor: context-menu;
 }
+
 .meniu-nav ul li {
   float: left;
 }
-.meniu-nav ul li:hover > ul {
+
+.meniu-nav ul li:hover>ul {
   opacity: 1;
   visibility: visible;
   top: 40px;
 }
-.meniu-nav ul > li > ul {
+
+.meniu-nav ul>li>ul {
+  transition: all 0.2s 0.2s;
   padding-top: 15px;
 }
 
 .meniu-nav ul ul {
   position: absolute;
+  left: 100px;
   top: 50px;
   background-color: #fff;
   box-shadow: 0.125rem 0.25rem 1.25rem 0.0875rem rgb(45 45 45 / 13%);
+  border-radius: 6px;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
@@ -182,6 +213,13 @@ ul {
   -moz-transition: top 0.3s;
   -ms-transition: top 0.3s;
   -o-transition: top 0.3s;
+}
+.meniu-nav ul .profile-ul{
+  left: 76%;
+  right: 0;
+}
+.meniu-nav ul .profile-ul li{
+  width: 160px;
 }
 
 .meniu-nav ul ul li {
@@ -201,12 +239,14 @@ ul {
   vertical-align: middle;
   /* margin-right: 7px; */
 }
+
 .logo span {
   font-size: 1.125rem;
   color: #303036;
   text-decoration: none;
   font-family: "Montserrat";
 }
+
 .logo {
   margin-bottom: 1.25rem;
   align-items: center;
@@ -223,39 +263,44 @@ ul {
   color: #2c7ae7;
   text-align: left;
 }
-.menu-list-to > span {
+
+.menu-list-to>span {
   transition: all 0.5s ease;
 }
+
 .menu-list-to {
   position: relative;
   display: flex;
+  align-items: baseline;
   color: black;
-  align-items: center;
   text-align: center;
   text-decoration: none;
   overflow: hidden;
 }
 
-.menu-list-to:hover > span {
+.menu-list-to:hover>span {
   transform: translateY(100%);
 }
+
 .menu-profil {
   color: black;
   font-size: 17px;
 }
-.menu-profil i{
+
+.menu-profil i {
   font-size: 15px;
   margin-left: 5px;
   color: #303036;
 }
 
-.menu-search{
+.menu-search {
   display: flex;
   align-items: center;
   vertical-align: middle;
   position: relative;
   bottom: 3px;
 }
+
 .menu-search i {
   position: absolute;
   top: 5px;
@@ -264,12 +309,14 @@ ul {
   height: 1.375rem;
   font-weight: 100;
   color: black;
+  margin-left: 4px;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
+
 .menu-search i:hover {
   color: rgba(72, 72, 235, 0.897);
   transition: all 0.5s;
@@ -287,6 +334,7 @@ ul {
   border-radius: 6px;
   padding-left: 29px;
 }
+
 .menu-search input:focus {
   border: 1px #568ad3 solid;
 }
@@ -297,6 +345,7 @@ ul {
   margin-bottom: 56px;
   text-align: center;
 }
+
 .section-heading-h2 {
   font-weight: 700;
   font-size: 2.5rem;
@@ -319,6 +368,7 @@ ul {
   outline: 0;
   border: 1px #917cddec solid;
 }
+
 .bttn i {
   height: 21px;
   width: 20px;
@@ -331,10 +381,12 @@ ul {
   -ms-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
 }
-.bttn:hover > i {
+
+.bttn:hover>i {
   transition: all 0.5s ease;
   transform: rotateY(180deg);
 }
+
 .bttn:hover {
   color: white;
   background: linear-gradient(to left, #568ad3 0, #0f58bd 100%);
@@ -344,6 +396,7 @@ ul {
   -ms-transition: ease-out 0.2s all;
   -o-transition: ease-out 0.2s all;
 }
+
 .bttn-row {
   display: flex;
   justify-content: center;
@@ -351,9 +404,11 @@ ul {
   margin-right: 20px;
   text-align: center;
 }
+
 .bttn-row .fas {
   font-size: 14px;
 }
+
 /*<====-- Services Section End --====>*/
 
 
@@ -371,6 +426,7 @@ ul {
   height: 100%;
   transition: all 0.25s;
 }
+
 .news-item::after {
   content: "";
   position: absolute;
@@ -384,13 +440,16 @@ ul {
   pointer-events: none;
   transition: all 0.25s;
 }
+
 .news-item:hover {
   box-shadow: 2px 4px 20px 1px rgba(45, 45, 45, 0.13);
 }
+
 .news-item a:hover {
   text-decoration: none;
   color: #2c7ae7;
 }
+
 .news-img img {
   width: 100%;
   height: 320px;
@@ -398,6 +457,7 @@ ul {
   vertical-align: middle;
   border-style: none;
 }
+
 .mews-img {
   display: block;
   height: 320px;
@@ -411,6 +471,7 @@ ul {
   position: relative;
   padding: 2.1875rem 1.25rem 1.25rem;
 }
+
 .news-day {
   position: absolute;
   left: 50%;
@@ -424,6 +485,7 @@ ul {
   border-radius: 6px;
   transform: translateX(-50%);
 }
+
 .news-item-title {
   font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
@@ -433,17 +495,21 @@ ul {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 .news-item-title a {
   text-decoration: none;
   color: #303036;
   transition: all 0.25s;
 }
-.news-item-title h4{
+
+.news-item-title h4 {
   font-size: 17px;
 }
+
 .news-item-text {
   color: #63636b;
 }
+
 /* News section end */
 
 /* footer section start */
@@ -454,6 +520,7 @@ ul {
   width: 100%;
   color: #fff;
 }
+
 #footer h4 {
   font-family: "Montserrat";
   font-size: 1.125rem;
@@ -461,9 +528,11 @@ ul {
   opacity: 0.9;
   font-weight: bold;
 }
+
 .footer-item span {
   color: white;
 }
+
 .company-sosial-media {
   display: flex;
   font-size: 18px;
@@ -480,6 +549,7 @@ ul {
   -ms-transition: all 0.1s;
   -o-transition: all 0.1s;
 }
+
 .company-sosial-icon {
   padding: 0px 1px;
   padding-top: 6px;
@@ -491,18 +561,22 @@ ul {
   transition: ease-out 0.3s all;
   border-radius: 6px;
 }
+
 .company-sosial-icon:hover {
   background-color: #ecf7f6;
   border: 1px solid #ecf7f6;
   color: #303036;
   transition: ease-out 0.3s all;
 }
+
 .company-sosial-icon i {
   color: white;
 }
+
 .company-sosial-icon:hover i {
   color: #303036;
 }
+
 .company-info {
   margin-bottom: 2rem;
   text-align: justify;
@@ -518,16 +592,20 @@ ul {
 .company-contacts-item {
   color: #c6cdce;
 }
+
 .company-contacts-item ul {
   list-style: none;
   padding: 0;
 }
+
 .company-contacts-item li {
   margin-bottom: 1rem;
 }
+
 .company-contacts-item li {
   margin-bottom: 1rem;
 }
+
 .footer-contact i {
   font-size: 1.18rem;
   width: 1.375rem;
@@ -536,13 +614,16 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
 .footer-contact-info a {
   color: #ffffff;
   opacity: 0.8;
 }
+
 .footer-contact-info a:hover {
   text-decoration: underline;
 }
+
 .footer-contact {
   margin-bottom: 2rem;
 }
@@ -559,6 +640,7 @@ ul {
   outline: 0;
   background-color: #303036;
 }
+
 .forum:focus {
   border: solid 1px #568ad3;
 }
@@ -571,16 +653,19 @@ ul {
   font-size: 14px;
   color: #c6cdce;
 }
+
 .conditions,
 .privacy {
   margin-right: 8px;
   color: #c6cdce;
   border-bottom: dashed #c6cdce 1px;
 }
+
 .conditions:hover,
 .privacy:hover {
   border-bottom: solid #c6cdce 1px;
 }
+
 /* footer Copyright end */
 .goback {
   width: 40px;
@@ -597,6 +682,7 @@ ul {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 .goback i {
   color: #2c7ae7;
   margin-left: 7px;
