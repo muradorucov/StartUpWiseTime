@@ -243,7 +243,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .register-container::before {
-    height: 2500px;
+    height: 2560px;
     width: 2200px;
     transform: translate(47%, 35%);
     right: 62%;
@@ -284,11 +284,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .register-container::before {
-    transform: translate(53%, 48%);
+    transform: translate(53%, 28%);
   }
 
   .register-input {
-    display: block;
     width: 80%;
     margin: auto;
   }
@@ -298,8 +297,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .input-field {
-    height: 40px;
-    margin: 10px auto;
+    min-width: 165px;
+    height: 31px;
+    margin: 10px 4px;
     margin-top: 0;
     align-items: center;
     border-radius: 14px;
@@ -311,12 +311,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .btn-item,
   .social-text,
   .social-icon {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .btn-item {
-    width: 140px;
-    height: 43px;
+    width: 130px;
+    height: 35px;
   }
 
   .register-text-danger {
@@ -325,12 +325,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   label i {
-    font-size: 12px;
-    margin-left: 9px;
+    font-size: 11px;
+    margin-left: 14px;
+    margin-right: 3px;
   }
 
   .label-register {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .image {
