@@ -82,6 +82,7 @@ form.sign-in-form {
 }
 
 .login-text-danger {
+  display: none;
   width: 250px;
   position: absolute;
   bottom: -20px;
