@@ -9553,3 +9553,11 @@ body.md-skin {
     margin: 0;
   }
 }
+
+.custom-file{
+  margin-bottom: 1rem;
+}
+
+.mg-bott{
+  margin-bottom: 0 !important;
+}
