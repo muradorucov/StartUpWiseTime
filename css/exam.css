@@ -1,62 +1,202 @@
 body {
-    color: #000000;
-    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#region-main {
+    width: calc(100% - 270px);
+    padding: 15px;
+}
+
+#exam-navigation {
+    height: 100vh;
+    width: 270px;
+}
+
+#exam-sextion {
+    display: flex;
+}
+
+.multichoice {
+    display: flex;
+}
+
+.answer .info {
+    width: 7em;
+    height: 105px;
+    padding: 0.5em;
+    margin: 0;
+    margin-bottom: 1.8em;
+    background-color: #eee;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 4px;
+}
+
+.answer .info h3 {
+    padding: 0 0 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #94999b;
+}
+
+.answer h3.no {
+    margin: 0;
+    font-size: .8em;
+    line-height: 1;
+}
+
+.answer .info>div {
+    font-size: .7em;
+    margin-top: 0.7em;
+}
+
+
+.answer-item {
+    width: 87%;
+    display: flex;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #333;
+    margin-left: 1.3rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.answer .qtext {
+    margin: 0 0 0;
+    font-size: 14px;
+    line-height: 23px;
     font-weight: 400;
-    line-height: 1.65;
-    font-style: normal;
-    font-family: "Jost", sans-serif;
-    background-color: #ffffff;
+    text-transform: none;
+    color: #35464b;
+    clear: both;
 }
 
-ul {
-    list-style: none;
+.answer .qtext {
+    clear: none !important;
 }
 
-.wrapper {
+.answer .qtext {
+    margin-bottom: 1.5em;
+}
+
+.exam-content {
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.answer-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.answer-image img {
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #f6e1ab 10px, #f2f2f2 60%, #f6e1ab);
-    margin: 0 auto;
-    overflow: hidden;
+    height: 200px;
+    object-fit: cover;
 }
 
-.pt-5 {
-    padding-top: 3rem !important;
+.hr {
+    margin: 30px 0;
 }
 
-.question_number {
-    padding-top: 5rem;
+.r0 {
+    padding: 0.3em 0 0.3em 25px;
 }
 
-span {
-    color: #ffc533;
-    font-size: 1.25rem;
-    font-weight: 700;
-    padding-bottom: 1rem;
-    -webkit-transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
-    transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+
+/* ========================================== */
+
+
+
+.nav-header {
+    padding: 12px 0;
+    background: #27293D;
 }
 
-.question_title {
-    font-size: 4rem;
-    font-weight: 700;
+h2 {
+    color: #FFFFFF;
+    text-shadow: none;
+    padding-bottom: 0;
+    padding: 3px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-.ps-0 {
-    padding-left: 0 !important;
+.nav-content {
+    color: #333;
+    padding: 18px 12px;
 }
 
-.form_items li {
+.answer-btn {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+}
+
+.qnbutton {
+    width: 38px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border: 3px solid #333;
+    border-radius: 3px;
+    color: #333;
+    text-decoration: none;
+    transition: ease-in .1s;
+}
+
+.qnbutton:hover {
+    text-decoration: none;
+    color: rgb(38, 151, 226);
+    background-color: #14181a;
+    border: 3px solid rgb(38, 151, 226);
+    transition: ease-in .1s;
+}
+
+.finish-btn,
+.btn-submit,
+.btn-submit input {
+    line-height: 36px;
+    height: 36px;
+    background: #e74c3c;
+    border: 1px solid #4c5f65;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-btn a,
+.btn-submit input {
+    color: #333;
+    font-weight: 600;
+
+}
+
+.finish-btn:hover, .btn-submit input:hover {
+    cursor: pointer;
+    background-color: #ff0808d0;
+}
+
+.btn-submit input {
+    border-right: 0;
+    border-left: 0;
     width: 100%;
-    color: #000a38;
-    font-size: 1.2rem;
-    padding: 0.8375rem 3rem;
-    margin-top: 1.25rem;
-    position: relative;
-    cursor: pointer;
 }
 
-label,
-input {
-    cursor: pointer;
+.clock_area{
+    margin-right: 15px;
+    padding:15px 7px;
+    border-radius: 50%;
+    border: 2px dashed blue;
 }
