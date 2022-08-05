@@ -22,7 +22,7 @@ body {
 
 .answer .info {
     width: 7em;
-    height: 105px;
+    height: 100%;
     padding: 0.5em;
     margin: 0;
     margin-bottom: 1.8em;
@@ -33,14 +33,14 @@ body {
     border-radius: 4px;
 }
 
-.answer .info h3 {
+.answer .info .no {
     padding: 0 0 20px;
     font-weight: 900;
     text-transform: uppercase;
     color: #94999b;
 }
 
-.answer h3.no {
+.answer .no {
     margin: 0;
     font-size: .8em;
     line-height: 1;
@@ -54,7 +54,11 @@ body {
 
 .answer-item {
     width: 87%;
+}
+
+.quetsion-content{
     display: flex;
+    width: 100%;
     background-color: #d9edf7;
     border-color: #bce8f1;
     color: #333;
@@ -117,7 +121,7 @@ body {
     background: #27293D;
 }
 
-h2 {
+.nav-h2 {
     color: #FFFFFF;
     text-shadow: none;
     padding-bottom: 0;
@@ -175,6 +179,9 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+.finish-btn{
+    padding: 4px 10px;
+}
 
 .finish-btn a,
 .btn-submit input {
@@ -200,3 +207,42 @@ h2 {
     border-radius: 50%;
     border: 2px dashed blue;
 }
+
+
+
+
+
+/* ======== Exam Summery style =============*/
+
+
+
+.summ-h2, .summ-h3{
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.summ-h2{
+    font-size: 28px;
+}
+
+.summ-h3{
+    font-size: 24px;
+}
+
+.bttns{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.table{
+    font-size: 14px;
+}
+/* ======== Exam Summery style end =============*/
+
+.mt-left-top{
+    margin-left: 1.3rem;
+    margin-top:3rem;
+    font-size: 14px;
+}
+
+/* ======== Exam Review style =============*/
