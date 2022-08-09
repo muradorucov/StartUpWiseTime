@@ -216,14 +216,25 @@ ul {
 }
 
 .meniu-nav ul .profile-ul {
-  left: 76%;
-  right: 0;
+  left: 0px;
+  right: 40px;
 }
 
 .meniu-nav ul .profile-ul li {
   width: 160px;
 }
 
+.cash-content{
+  position: relative;
+  top: -3px;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 .teacher-exam {
   display: grid;
@@ -335,52 +346,6 @@ ul {
 
 .menu-profil:hover>i{
   transform: rotateX(0deg);
-}
-
-.menu-search {
-  display: flex;
-  align-items: center;
-  vertical-align: middle;
-  position: relative;
-  bottom: 3px;
-}
-
-.menu-search i {
-  position: absolute;
-  top: 5px;
-  font-size: 19px;
-  width: 1.375rem;
-  height: 1.375rem;
-  font-weight: 100;
-  color: #303036;
-  margin-left: 4px;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-}
-
-.menu-search i:hover {
-  color: rgba(72, 72, 235, 0.897);
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-}
-
-.menu-search input {
-  width: 200px;
-  color: #0a33e6;
-  border: 1px #c6cdce solid;
-  outline: 0;
-  border-radius: 6px;
-  padding-left: 29px;
-}
-
-.menu-search input:focus {
-  border: 1px #568ad3 solid;
 }
 
 /*<====-- header meniu end --====>*/
