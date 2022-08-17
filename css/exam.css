@@ -7,6 +7,7 @@ body {
     padding: 15px;
 }
 
+
 #exam-navigation {
     height: 100vh;
     width: 270px;
@@ -56,7 +57,7 @@ body {
     width: 87%;
 }
 
-.quetsion-content{
+.quetsion-content {
     display: flex;
     width: 100%;
     background-color: #d9edf7;
@@ -179,7 +180,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.finish-btn{
+
+.finish-btn {
     padding: 4px 10px;
 }
 
@@ -190,7 +192,8 @@ body {
 
 }
 
-.finish-btn:hover, .btn-submit input:hover {
+.finish-btn:hover,
+.btn-submit input:hover {
     cursor: pointer;
     background-color: #ff0808d0;
 }
@@ -201,11 +204,11 @@ body {
     width: 100%;
 }
 
-.clock_area{
+.time {
     margin-right: 15px;
-    padding:15px 7px;
-    border-radius: 50%;
-    border: 2px dashed blue;
+    /* padding: 15px 7px; */
+    color: #0d21d1;
+    font-weight: 700;
 }
 
 
@@ -216,33 +219,64 @@ body {
 
 
 
-.summ-h2, .summ-h3{
+.summ-h2,
+.summ-h3 {
     font-weight: 700;
     padding: 10px 0;
 }
 
-.summ-h2{
+.summ-h2 {
     font-size: 28px;
 }
 
-.summ-h3{
+.summ-h3 {
     font-size: 24px;
 }
 
-.bttns{
+.bttns {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
-.table{
+.table {
     font-size: 14px;
 }
+
 /* ======== Exam Summery style end =============*/
 
-.mt-left-top{
+.mt-left-top {
     margin-left: 1.3rem;
-    margin-top:3rem;
+    margin-top: 3rem;
     font-size: 14px;
 }
 
+#region-review {
+    width: 100%;
+    padding: 5.6rem 0;
+}
+
+.header-review {
+    text-align: center
+}
+
+.header-review h1 {
+    font-weight: 700;
+    font-size: 4.2rem;
+}
+
+.grade {
+    text-align: center;
+}
+
+.total-score{
+    font-size: 42px;
+    font-weight: 900;
+    color: #3939ff;
+    padding: 0.8rem 0;
+}
+.general-indicator{
+    color: black; 
+    font-size: 20px; 
+    font-weight: 700;
+}
 /* ======== Exam Review style =============*/
